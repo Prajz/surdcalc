@@ -1,5 +1,12 @@
 #surdcalc
 
-This is a program to help you practice different operation using surds and simplifying them with some pythagoras questions too.
-Make sure you enter numbers only and make sure you read the start of it.
-You can access the calculator by running calc.py
+This is a program to help you practice different operations on surds.
+At the start there are some pythagoras questions which help simplifying followed by questions on adding and subtracting surds.
+
+Installation:
+To install this program, unzip the .py files
+
+Running the program:
+To run this program in Windows, Mac OS or Linux, open the Python files in a text editor that can
+run Python and run calc.py.
+
