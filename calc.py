@@ -4,11 +4,46 @@ import numpy as np
 import triwq as nothing
 
 
-list_two = [2,8,18,32,50,72,98,162,128,512]
-list_three = [3,12,27,75,108,147,192,243]
-list_five = [5,20,45,80,125,180,245,320]
-list_seven = [7,28,63,112,175]
-list_eleven = [11,44,99,176]
+list_two = []
+list_three = []
+list_five = []
+list_seven = []
+list_eleven = []
+
+for i in range(1,9):
+      q = 0
+      while q < 200:
+            n = (i ** 2) * 2
+            list_two.append(n)
+            q = n
+
+for i in range(1,9):
+      q = 0
+      while q < 200:
+            n = (i ** 2) * 3
+            list_three.append(n)
+            q = n
+
+for i in range(1,9):
+      q = 0
+      while q < 200:
+            n = (i ** 2) * 5
+            list_five.append(n)
+            q = n
+
+for i in range(1,9):
+      q = 0
+      while q < 200:
+            n = (i ** 2) * 7
+            list_seven.append(n)
+            q = n
+
+for i in range(1,9):
+      q = 0
+      while q < 200:
+            n = (i ** 2) * 11
+            list_eleven.append(n)
+            q = n
 
 a = 0
 b = 0
@@ -247,8 +282,6 @@ for t in range(0,60):
   print("this is question " + str(t+1) + "a")
   time.sleep(1)
   randomas()
-  #print("the numbers are " + str(a) + "sqrt(" + str(b) + ") and " + str(c) + "sqrt(" + str(d) + ")")
-  #print("First enter x and y for the numbers added")
   add(a,b,c,d)
   time.sleep(1)
   print("this is question " + str(t+1) + "b")

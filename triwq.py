@@ -2,7 +2,7 @@ import time
 
 def a():
   time.sleep(2)
-  print("wow you finished")
+  print("nice you finished")
   time.sleep(1)
   print("there is no key lol")
   time.sleep(3)
