@@ -19,6 +19,7 @@ def randomas():
   global a,b,c,d
   a = random.randint(1,20)
   c = random.randint(1,20)
+  #ensures that the surds can be simplifed so the answer can be a single surd
   e = random.randint(1,5)
   if e == 1:
     b = random.choice(list_two)
@@ -35,7 +36,8 @@ def randomas():
   if e == 5:
     b = random.choice(list_eleven)
     d = random.choice(list_eleven)
-    
+
+
 def add(a,b,c,d):
   num1 = a * np.sqrt(b)
   num2 = c * np.sqrt(d)
@@ -56,13 +58,15 @@ def add(a,b,c,d):
       print("simplify")
       time.sleep(1)
       add(a,b,c,d)
+      #try again if not verified
     else:
       print("good")
   else:
     print("try again")
     time.sleep(1)
     add(a,b,c,d)
-
+    #try again if not correct
+  
 def subtract(a,b,c,d):
   time.sleep(1)
   num1 = a * np.sqrt(b)
@@ -88,6 +92,7 @@ def subtract(a,b,c,d):
     print("try again")
     time.sleep(1)
     subtract(a,b,c,d)
+    #try again if not correct
     
 def verifysimp(yanss):
   if (yanss % 4 == 0) or (yanss % 9 == 0) or (yanss % 25 == 0) or (yanss % 49 == 0) or (yanss % 121 == 0) or (yanss % 169 == 0) or (yanss % 289 ==0) or (yanss % 361 == 0):
