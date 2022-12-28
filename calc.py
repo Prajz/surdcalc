@@ -4,46 +4,11 @@ import numpy as np
 import triwq as nothing
 
 
-list_two = []
-list_three = []
-list_five = []
-list_seven = []
-list_eleven = []
-
-for i in range(1,9):
-      q = 0
-      while q < 200:
-            n = (i ** 2) * 2
-            list_two.append(n)
-            q = n
-
-for i in range(1,9):
-      q = 0
-      while q < 200:
-            n = (i ** 2) * 3
-            list_three.append(n)
-            q = n
-
-for i in range(1,9):
-      q = 0
-      while q < 200:
-            n = (i ** 2) * 5
-            list_five.append(n)
-            q = n
-
-for i in range(1,9):
-      q = 0
-      while q < 200:
-            n = (i ** 2) * 7
-            list_seven.append(n)
-            q = n
-
-for i in range(1,9):
-      q = 0
-      while q < 200:
-            n = (i ** 2) * 11
-            list_eleven.append(n)
-            q = n
+list_two = [2,8,18,32,50,72,98,128,162,200,242]
+list_three = [3,12,27,48,75,108,192,243]
+list_five = [5,20,45,80,125]
+list_seven = [7,28,63,112,175]
+list_eleven = [11,44,99,176,275]
 
 a = 0
 b = 0
