@@ -1,6 +1,6 @@
 #  Surdcalc 
 
-This is a program to help you practice different operations on surds.
+This was a program to help my younger sister practice different operations on surds.
 At the start there are some pythagoras questions which help simplifying followed by questions on adding and subtracting surds.
 
 Installation:
